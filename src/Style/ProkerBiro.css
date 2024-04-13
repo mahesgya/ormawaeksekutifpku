@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Poppins;
+  src: url("Fonts/Poppins/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: Poppins;
+}
+
+#ProkerBiro {
+  background-image: url(Image/BackgroundHome.png);
+  background-size: cover;
+  background-attachment: local;
+  padding-bottom: 20px;
+}
+
+#ProkerBiro h2 {
+  color: #ffff;
+  text-align: center;
+  text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.25);
+  font-size: 45px;
+  font-family: montserrat;
+  letter-spacing: 7px;
+  font-weight: 900;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.BiroProker {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.BiroProker div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fotoProker {
+  width: 700px;
+  margin: 20px;
+  margin-bottom: 0 ;
+}
+
+.buttonProker {
+  color: #f8f6f5;
+  font-family: Poppins;
+  font-size: 12px;
+  padding: 5px 10px;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 1rem;
+  text-shadow: 1px 1px 1px #000;
+  background: linear-gradient(90deg, #fc9760 0%, #ea5d51 59.5%, #dd3547 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.prokerComingSoon{
+  padding-bottom: 25px;
+}
