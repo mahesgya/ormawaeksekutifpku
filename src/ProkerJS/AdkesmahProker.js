@@ -1,15 +1,60 @@
-import React from 'react';
-import Footer from '../Components/Footer';
-import Navbar from '../Components/Navbar';
-
+import React from "react";
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
+import { Link } from "react-router-dom";
+import "../Style/ProkerBiro.css";
 
 function AdkesmahProker() {
-    return (
-      <div className="Proker">
-        <Navbar/>
-        <Footer/>
+  return (
+    <div className="Proker">
+      <Navbar />
+      <div id="ProkerBiro">
+        <h2>DEPARTEMEN ADKESMAH</h2>
+        <div className="BiroProker">
+          <div className="prokerDone">
+            <img src="ImagesProker/Advo Project.png" className="fotoProker" />
+            <Link to="/advoproject">
+              <button className="buttonProker">ON GOING</button>
+            </Link>
+          </div>
+          <div className="prokerOnGoing">
+            <img src="ImagesProker/Peduli UKT.png" className="fotoProker" />
+            <Link to="/peduliukt">
+              <button className="buttonProker">ON GOING</button>
+            </Link>
+          </div>
+          <div className="prokerOnGoing">
+            <img src="ImagesProker/Sapa Maba.png" className="fotoProker" />
+            <Link to="/sapamaba">
+              <button className="buttonProker">ON GOING</button>
+            </Link>
+          </div>
+          <div className="prokerDone">
+            <img src="ImagesProker/Kekuras.png" className="fotoProker" />
+            <Link to="/kekuras">
+              <button className="buttonProker">READ MORE</button>
+            </Link>
+          </div>
+          <div className="prokerDone">
+            <img src="ImagesProker/Advo Berbagi.png" className="fotoProker" />
+            <Link to="/advoberbagi">
+              <button className="buttonProker">READ MORE</button>
+            </Link>
+          </div>
+          <div className="prokerDone">
+            <img src="ImagesProker/Harmony Minds.png" className="fotoProker" />
+            <Link to="/harmonyminds">
+              <button className="buttonProker">READ MORE</button>
+            </Link>
+          </div>
+          <div className="prokerComingSoon">
+            <img src="ImagesProker/Sempoa.png" className="fotoProker" />
+          </div>
+        </div>
       </div>
-    );
-  }
-  
-  export default AdkesmahProker;
+      <Footer />
+    </div>
+  );
+}
+
+export default AdkesmahProker;

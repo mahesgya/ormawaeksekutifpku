@@ -1,12 +1,48 @@
-import React from 'react';
+import React from "react";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
-
+import { Link } from "react-router-dom";
+import "../Style/ProkerBiro.css";
 
 function EkrafProker() {
   return (
     <div className="Proker">
       <Navbar />
+      <div id="ProkerBiro">
+        <h2>DEPARTEMEN EKRAF</h2>
+        <div className="BiroProker">
+          <div className="prokerDone">
+            <img src="ImagesProker/Dirgantara Store.png" className="fotoProker" />
+            <Link to="/dirgantarastore">
+              <button className="buttonProker">ON GOING</button>
+            </Link>
+          </div>
+          <div className="prokerOnGoing">
+            <img src="ImagesProker/Preneurzone.png" className="fotoProker" />
+            <Link to="/preneurzone">
+              <button className="buttonProker">ON GOING</button>
+            </Link>
+          </div>
+          <div className="prokerOnGoing">
+            <img src="ImagesProker/Preneurpedia.png" className="fotoProker" />
+            <Link to="/preneurpedia">
+              <button className="buttonProker">ON GOING</button>
+            </Link>
+          </div>
+          <div className="prokerOnGoing">
+            <img src="ImagesProker/Finest Class.png" className="fotoProker" />
+            <Link to="/finestclass">
+              <button className="buttonProker">READ MORE</button>
+            </Link>
+          </div>
+          <div className="prokerComingSoon">
+            <img src="ImagesProker/Creativity.png" className="fotoProker" />
+          </div>
+          <div className="prokerComingSoon">
+            <img src="ImagesProker/Lebitre.png" className="fotoProker" />
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
