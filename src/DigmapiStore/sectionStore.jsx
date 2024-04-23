@@ -122,7 +122,7 @@ function SectionStore() {
             <h2>Give Me Your Feedback Here!</h2>
             <div className="">
               <h3>Link Feedback :</h3>
-              <a href="https://forms.gle/bdRJ8YcBggwwGBxS9">https://forms.gle/bdRJ8YcBggwwGBxS9</a>
+              <a href="https://ipb.link/feedbackdirgantarastore">ipb.link/feedbackdirgantarastore </a>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ function SectionStore() {
           <div className="">
             <h2>Order Now</h2>
             <h4>Link :</h4>
-            <a href="https://forms.gle/apeGsvSmF9Qf8KN47">https://forms.gle/apeGsvSmF9Qf8KN47</a>
+            <a href="https://ipb.link/orderdirgantarastore">ipb.link/orderdirgantarastore</a>
           </div>
           <img src="Images/DipiPencarian.png" alt="" />
           <div className="">
