@@ -30,7 +30,7 @@
 }
 
 .Swiper-Proker img {
-  width: 600px;
+  width: 1000px;
 }
 
 @media screen and (max-width: 769px) {
@@ -49,12 +49,12 @@
 
   .mySwiper-Proker {
     width: 550px;
-    height: 200px;
+    height: 280px;
     padding: 50px;
   }
 
   .Swiper-Proker img {
-    width: 250px;
+    width: 500px;
   }
   
 }
@@ -75,12 +75,12 @@
 
   .mySwiper-Proker {
     width: 370px;
-    height: 130px;
+    height: 200px;
     padding: 50px;
   }
 
   .Swiper-Proker img {
-    width: 160px;
+    width: 300px;
   }
 }
 
@@ -100,12 +100,12 @@
 
   .mySwiper-Proker {
     width: 700px;
-    height: 200px;
+    height: 300px;
     padding: 50px;
   }
 
   .Swiper-Proker img {
-    width: 280px;
+    width: 600px;
   }
 }
 
@@ -125,12 +125,12 @@
 
   .mySwiper-Proker {
     width: 900px;
-    height: 200px;
+    height: 400px;
     padding: 50px;
   }
 
   .Swiper-Proker img {
-    width: 350px;
+    width: 700px;
   }
 }
 
@@ -162,11 +162,11 @@
   
   .mySwiper-Proker {
     width: 1300px;
-    height: 400px;
+    height: 500px;
     padding: 50px;
   }
   
   .Swiper-Proker img {
-    width: 600px;
+    width: 900px;
   }
 }

@@ -18,7 +18,7 @@ function ProkerSlide() {
         className="mySwiper-Proker"
         spaceBetween={50}
         loop={true}
-        slidesPerView={2}
+        slidesPerView={1}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
