@@ -12,37 +12,37 @@ function SectionStore() {
           <h1>Welcome to Dirgantara Store!</h1>
           <div className="store2-A">
             <div className="">
-              <a href="" className="storeMenu">
+              <a  className="storeMenu">
                 <img src="ImagesStore/Sop.png" alt="" />
                 <h4>SOP</h4>
               </a>
             </div>
             <div className="">
-              <a href="" className="storeMenu">
+              <a  className="storeMenu">
                 <img src="ImagesStore/PriceList.png" alt="" />
                 <h4>PriceList</h4>
               </a>
             </div>
             <div className="">
-              <a href="" className="storeMenu">
+              <a className="storeMenu">
                 <img src="ImagesStore/OrderNow.png" alt="" />
                 <h4>Order Now</h4>
               </a>
             </div>
             <div className="">
-              <a href="" className="storeMenu">
+              <a  className="storeMenu">
                 <img src="ImagesStore/Pembayaran.png" alt="" />
                 <h4>Pembayaran</h4>
               </a>
             </div>
             <div className="">
-              <a href="" className="storeMenu">
+              <a  className="storeMenu">
                 <img src="ImagesStore/FeedBack.png" alt="" />
                 <h4>Feedback</h4>
               </a>
             </div>
             <div className="">
-              <a href="" className="storeMenu">
+              <a  className="storeMenu">
                 <img src="ImagesStore/More.png" alt="" />
                 <h4>More</h4>
               </a>
@@ -102,7 +102,7 @@ function SectionStore() {
                 <h3>Untuk Internal Ormawa Eksekutif PKU</h3>
                 <div className="store4-Detail">
                   <a href="https://wa.me/6285269068586">
-                    <img src="ImagesStore/person.png" alt="" />
+                    <img src="ImagesStore/person.png" alt="" className="khusus-person"/>
                     <p>Bendaraha Departemen ekonomi Kreatif a.n. Loren Narita Destenty Elshadai Pasaribu</p>
                   </a>
                 </div>
@@ -111,7 +111,7 @@ function SectionStore() {
                 <h3>Untuk di Luar Ormawa Eksekutif PKU</h3>
                 <div className="store4-Detail">
                   <a href="https://wa.me/6285718042275">
-                    <img src="ImagesStore/person.png" alt="" />
+                    <img src="ImagesStore/person.png" alt="" className="khusus-person"/>
                     <p>Bendaraha Dirgantara Store a.n. Lusni</p>
                   </a>
                 </div>
@@ -122,7 +122,7 @@ function SectionStore() {
             <h2>Give Me Your Feedback Here!</h2>
             <div className="">
               <h3>Link Feedback :</h3>
-              <a href="https://forms.gle/bdRJ8YcBggwwGBxS9<">https://forms.gle/bdRJ8YcBggwwGBxS9</a>
+              <a href="https://forms.gle/bdRJ8YcBggwwGBxS9">https://forms.gle/bdRJ8YcBggwwGBxS9</a>
             </div>
           </div>
         </div>

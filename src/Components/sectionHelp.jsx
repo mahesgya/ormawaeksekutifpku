@@ -22,7 +22,7 @@ function SectionHelp() {
           SIGAP Merupakan salah satu Program Kerja Ormawa Legislatif PKU IPB periode 2023/2024 yang berfungsi sebagai sarana menyalurkan aspirasi, serta wadah kritik dan saran yang akan dipergunakan demi kesejahteraan mahasiswa PKU IPB
           University
         </p>
-        <a><button className="button1">About Us</button></a>
+        <a href="https://bit.ly/OrmawaLegislatifSIGAP"><button className="button1">About Us</button></a>
       </div>
     </div>
   );
