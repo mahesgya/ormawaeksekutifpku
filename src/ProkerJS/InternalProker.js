@@ -8,7 +8,7 @@ function InternalProker() {
     <div className="Proker">
       <Navbar />
       <div id="ProkerBiro">
-        <h2>BIRO INTERNAL</h2>
+      <div className="div-proh2"><h2>BIRO INTERNAL</h2></div>
         <div className="BiroProker">
           <div className="prokerOnGoing">
             <img src="ImagesProker/Sahabat Internal.png" className="fotoProker" />

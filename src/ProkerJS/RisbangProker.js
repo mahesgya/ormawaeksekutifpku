@@ -8,9 +8,9 @@ function RisbangProker() {
     <div className="Proker">
       <Navbar />
       <div id="ProkerBiro">
-        <div className="div-proh2"><h2>BIRO RISBANG</h2></div>
-        
-        
+        <div className="div-proh2">
+          <h2>BIRO RISBANG</h2>
+        </div>
         <div className="BiroProker">
           <div className="prokerDone">
             <img src="ImagesProker/Riscol.png" className="fotoProker" />
@@ -36,6 +36,18 @@ function RisbangProker() {
               <button className="buttonProker">ON GOING</button>
             </Link>
           </div>
+          <div className="prokerOnGoing">
+            <img src="ImagesProker/Risbang 100.png" className="fotoProker" />
+            <Link to="/risbang100">
+              <button className="buttonProker">ON GOING</button>
+            </Link>
+          </div>
+          <div className="prokerOnGoing">
+            <img src="ImagesProker/Riszwei 1.png" className="fotoProker" />
+            <Link to="/riszwei">
+              <button className="buttonProker">ON GOING</button>
+            </Link>
+          </div>
           <div className="prokerDone">
             <img src="ImagesProker/Surat PKU.png" className="fotoProker" />
             <Link to="/suratpku">
@@ -52,7 +64,7 @@ function RisbangProker() {
             <img src="ImagesProker/Surkesu UAS.png" className="fotoProker" />
           </div>
           <div className="prokerComingSoon">
-            <img src="ImagesProker/Riszwei.png" className="fotoProker" />
+            <img src="ImagesProker/Riszwei 2.png" className="fotoProker" />
           </div>
           <div className="prokerComingSoon">
             <img src="ImagesProker/Suryacitya.png" className="fotoProker" />

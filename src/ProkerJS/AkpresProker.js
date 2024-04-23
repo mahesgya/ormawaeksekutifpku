@@ -9,7 +9,7 @@ function AkpresProker() {
     <div className="Proker">
       <Navbar />
       <div id="ProkerBiro">
-        <h2>DEPARTEMEN AKPRES</h2>
+      <div className="div-proh2"><h2>DEPARTEMEN AKPRES</h2></div>
         <div className="BiroProker">
           <div className="prokerDone">
             <img src="ImagesProker/Info Akpres.png" className="fotoProker" />
@@ -37,6 +37,9 @@ function AkpresProker() {
           </div>
           <div className="prokerComingSoon">
             <img src="ImagesProker/Festival.png" className="fotoProker" />
+          </div>
+          <div className="prokerComingSoon">
+            <img src="ImagesProker/Akpres Menyapa.png" className="fotoProker" />
           </div>
         </div>
       </div>

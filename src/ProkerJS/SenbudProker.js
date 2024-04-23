@@ -9,7 +9,7 @@ function SenbudProker() {
     <div className="Proker">
       <Navbar />
       <div id="ProkerBiro">
-        <h2>DEPARTEMEN SENBUD</h2>
+      <div className="div-proh2"><h2>DEPARTEMEN SENBUD</h2></div>
         <div className="BiroProker">
           <div className="prokerDone">
             <img src="ImagesProker/Sehari Berbatik.png" className="fotoProker" />

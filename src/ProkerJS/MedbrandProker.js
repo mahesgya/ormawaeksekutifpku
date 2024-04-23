@@ -9,7 +9,7 @@ function MedbrandProker() {
     <div className="Proker">
       <Navbar />
       <div id="ProkerBiro">
-        <h2>BIRO MEDBRAND</h2>
+      <div className="div-proh2"><h2>BIRO MEDBRAND</h2></div>
         <div className="BiroProker">
           <div className="prokerDone">
             <img src="ImagesProker/Digmacast.png" className="fotoProker" />
@@ -43,7 +43,7 @@ function MedbrandProker() {
           </div>
           <div className="prokerDone">
             <img src="ImagesProker/Grand Launching.png" className="fotoProker" />
-            <Link to="/grandlauncing">
+            <Link to="/grandlaunching">
               <button className="buttonProker">READ MORE</button>
             </Link>
           </div>

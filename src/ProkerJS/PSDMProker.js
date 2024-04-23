@@ -9,7 +9,7 @@ function PSDMProker() {
     <div className="Proker">
       <Navbar />
       <div id="ProkerBiro">
-        <h2>DEPARTEMEN PSDM</h2>
+      <div className="div-proh2"><h2>DEPARTEMEN PSDM</h2></div>
         <div className="BiroProker">
           <div className="prokerDone">
             <img src="ImagesProker/Iconics.png" className="fotoProker" />

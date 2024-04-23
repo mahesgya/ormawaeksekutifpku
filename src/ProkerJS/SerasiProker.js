@@ -9,7 +9,7 @@ function SerasiProker() {
     <div className="Proker">
       <Navbar />
       <div id="ProkerBiro">
-        <h2>BIRO SERASI</h2>
+        <div className="div-proh2"><h2>BIRO SERASI</h2></div>
         <div className="BiroProker">
           <div className="prokerDone">
             <img src="ImagesProker/Internalisasi.png" className="fotoProker" />

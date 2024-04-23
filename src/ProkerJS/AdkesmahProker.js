@@ -9,7 +9,7 @@ function AdkesmahProker() {
     <div className="Proker">
       <Navbar />
       <div id="ProkerBiro">
-        <h2>DEPARTEMEN ADKESMAH</h2>
+      <div className="div-proh2"><h2>DEPARTEMEN ADKESMAH</h2></div>
         <div className="BiroProker">
           <div className="prokerDone">
             <img src="ImagesProker/Advo Project.png" className="fotoProker" />
@@ -18,7 +18,7 @@ function AdkesmahProker() {
             </Link>
           </div>
           <div className="prokerOnGoing">
-            <img src="ImagesProker/Peduli UKT.png" className="fotoProker" />
+            <img src="ImagesProker/Peduli UKT 2.png" className="fotoProker" />
             <Link to="/peduliukt">
               <button className="buttonProker">ON GOING</button>
             </Link>
@@ -30,13 +30,19 @@ function AdkesmahProker() {
             </Link>
           </div>
           <div className="prokerDone">
-            <img src="ImagesProker/Kekuras.png" className="fotoProker" />
+            <img src="ImagesProker/Peduli UKT 1.png" className="fotoProker" />
+            <Link to="/peduliukt">
+              <button className="buttonProker">READ MORE</button>
+            </Link>
+          </div>
+          <div className="prokerDone">
+            <img src="ImagesProker/Kekuras 1.png" className="fotoProker" />
             <Link to="/kekuras">
               <button className="buttonProker">READ MORE</button>
             </Link>
           </div>
           <div className="prokerDone">
-            <img src="ImagesProker/Advo Berbagi.png" className="fotoProker" />
+            <img src="ImagesProker/Advo Berbagi 1.png" className="fotoProker" />
             <Link to="/advoberbagi">
               <button className="buttonProker">READ MORE</button>
             </Link>
@@ -49,6 +55,12 @@ function AdkesmahProker() {
           </div>
           <div className="prokerComingSoon">
             <img src="ImagesProker/Sempoa.png" className="fotoProker" />
+          </div>
+          <div className="prokerComingSoon">
+            <img src="ImagesProker/Kekuras 2.png" className="fotoProker" />
+          </div>
+          <div className="prokerComingSoon">
+            <img src="ImagesProker/Advo Berbagi 2.png" className="fotoProker" />
           </div>
         </div>
       </div>

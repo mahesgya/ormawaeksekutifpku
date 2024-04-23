@@ -9,23 +9,27 @@ function PeragaProker() {
     <div className="Proker">
       <Navbar />
       <div id="ProkerBiro">
-        <h2>DEPARTEMEN PERAGA</h2>
+        <div className="div-proh2">
+          <h2>DEPARTEMEN PERAGA</h2>
+        </div>
         <div className="BiroProker">
-          <div className="prokerDone">
-            <img src="ImagesProker/PGTO.png" className="fotoProker" />
-            <Link to="/pgto">
+          <div className="prokerComingSoon">
+            <img src="ImagesProker/Sobat Gerak.png" className="fotoProker" />
+            <Link to="/sobatgerak">
               <button className="buttonProker">ON GOING</button>
             </Link>
           </div>
-
+          <div className="prokerDone">
+            <img src="ImagesProker/PGTO.png" className="fotoProker" />
+            <Link to="/pgto">
+              <button className="buttonProker">READ MORE</button>
+            </Link>
+          </div>
           <div className="prokerDone">
             <img src="ImagesProker/Gelora PKU.png" className="fotoProker" />
             <Link to="/gelorapku">
               <button className="buttonProker">READ MORE</button>
             </Link>
-          </div>
-          <div className="prokerComingSoon">
-            <img src="ImagesProker/Sobat Gerak.png" className="fotoProker" />
           </div>
           <div className="prokerComingSoon">
             <img src="ImagesProker/Passion.png" className="fotoProker" />

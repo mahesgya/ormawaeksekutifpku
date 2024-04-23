@@ -9,7 +9,7 @@ function EkrafProker() {
     <div className="Proker">
       <Navbar />
       <div id="ProkerBiro">
-        <h2>DEPARTEMEN EKRAF</h2>
+      <div className="div-proh2"><h2>DEPARTEMEN EKRAF</h2></div>
         <div className="BiroProker">
           <div className="prokerDone">
             <img src="ImagesProker/Dirgantara Store.png" className="fotoProker" />

@@ -41,7 +41,7 @@ body {
   background: var(--bg);
 }
 
-.container {
+.container-prestasi {
   max-width: 124rem;
   padding: 1rem 1rem;
   margin: 0 auto;
@@ -65,13 +65,13 @@ body {
   position: relative;
 }
 
-.swiper-slide {
+.swiper-slideA {
   width: 37rem;
   height: 37rem;
   position: relative;
 }
 
-.swiper-slide img {
+.swiper-slideA img {
   width: 37rem;
   height: 37rem;
   border-radius: 2rem;
@@ -167,17 +167,17 @@ body {
     padding: 0;
     letter-spacing: 1px;
   }
-  .container {
+  .container-prestasi {
     padding: 5px 15px;
   }
   .swiper_container {
     height: 30rem;
   }
-  .swiper-slide {
+  .swiper-slideA {
     width: 20rem !important;
     height: 20rem !important;
   }
-  .swiper-slide img {
+  .swiper-slideA img {
     width: 20rem !important;
     height: 20rem !important;
   }
@@ -187,17 +187,17 @@ body {
     font-size: 15px;
     padding: 0;
   }
-  .container {
+  .container-prestasi {
     padding: 5px 15px;
   }
   .swiper_container {
     height: 22rem;
   }
-  .swiper-slide {
+  .swiper-slideA {
     width: 14rem !important;
     height: 18rem !important;
   }
-  .swiper-slide img {
+  .swiper-slideA img {
     width: 14rem !important;
     height: 14rem !important;
   }
@@ -208,17 +208,17 @@ body {
     padding: 0;
     letter-spacing: 1px;
   }
-  .container {
+  .container-prestasi {
     padding: 5px 15px;
   }
   .swiper_container {
     height: 35rem;
   }
-  .swiper-slide {
+  .swiper-slideA {
     width: 25rem !important;
     height: 25rem !important;
   }
-  .swiper-slide img {
+  .swiper-slideA img {
     width: 25rem !important;
     height: 25rem !important;
   }
@@ -230,17 +230,17 @@ body {
     padding: 0;
     letter-spacing: 1px;
   }
-  .container {
+  .container-prestasi {
     padding: 5px 15px;
   }
   .swiper_container {
     height: 45rem;
   }
-  .swiper-slide {
+  .swiper-slideA {
     width: 33rem !important;
     height: 33rem !important;
   }
-  .swiper-slide img {
+  .swiper-slideA img {
     width: 33rem !important;
     height: 33rem !important;
   }
@@ -252,17 +252,17 @@ body {
         padding: 0;
         letter-spacing: 2px;
       }
-      .container {
+      .container-prestasi {
         padding: 5px 15px;
       }
       .swiper_container {
         height: 54rem;
       }
-      .swiper-slide {
+      .swiper-slideA {
         width: 40rem !important;
         height: 40rem !important;
       }
-      .swiper-slide img {
+      .swiper-slideA img {
         width: 40rem !important;
         height: 40rem !important;
       }

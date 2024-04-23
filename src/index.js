@@ -30,8 +30,74 @@ import SenbudTentang from "./TentangJS/SenbudTentang";
 import SerasiTentang from "./TentangJS/SerasiTentang";
 import SLHTentang from "./TentangJS/SLHTentang";
 import BPHTentang from "./TentangJS/BPHTentang";
+import BawaMimpimu from "./BiroProker/BawaMimpimu";
+import SahabatInternal from "./BiroProker/SahabatInternal";
+import WelcomingParty from "./BiroProker/WelcomingParty";
+import Rapot from "./BiroProker/Rapot";
+import BukaBersama from "./BiroProker/BukaBersama";
+import SuratPKU from "./BiroProker/SuratPKU";
+import SurkesuUTS from "./BiroProker/SurkesuUTS";
+import Riszwei from "./BiroProker/Riszwei";
+import Rintig from "./BiroProker/Rintig";
+import Riscol from "./BiroProker/Riscol";
+import Webris from "./BiroProker/Webris";
+import Risbang100 from "./BiroProker/Risbang100";
+import Widyaris from "./BiroProker/Widyaris";
+import Humas101 from "./BiroProker/Humas101";
+import Database from "./BiroProker/Database";
+import RelasiEvaluasi from "./BiroProker/RelasiEvaluasi";
+import Internalisasi from "./BiroProker/Internalisasi";
+import Digmacast from "./BiroProker/Digmacast";
+import Digmanews from "./BiroProker/Digmanews";
+import UjarPKU from "./BiroProker/UjarPKU";
+import Publikasi from "./BiroProker/Publikasi";
+import SayembaraLogo from "./BiroProker/SayembaraLogo";
+import GrandLaunching from "./BiroProker/GrandLaunching";
+import SuarakanMimpi from "./BiroProker/SuarakanMimpi";
+import AdvoProject from "./DeptProkerA/AdvoProject";
+import AdvoBerbagi from "./DeptProkerA/AdvoBerbagi";
+import Kekuras from "./DeptProkerA/Kekuras";
+import SapaMaba from "./DeptProkerA/SapaMaba";
+import HarmonyMinds from "./DeptProkerA/HarmonyMinds";
+import PeduliUKT from "./DeptProkerA/PeduliUKT";
+import InfoAkpres from "./DeptProkerA/InfoAkpres";
+import SurveyPrestasi from "./DeptProkerA/SurveyPrestasi";
+import RuangBelajar from "./DeptProkerA/RuangBelajar";
+import PCW from "./DeptProkerA/PCW";
+import Ngopi from "./DeptProkerA/Ngopi";
+import KabarKastrat from "./DeptProkerA/KabarKastrat";
+import LamanKastrat from "./DeptProkerA/LamanKastrat";
+import Pustakastrat from "./DeptProkerA/Pustakastrat";
+import Sehari from "./DeptProkerA/Sehari";
+import BincangPolitik from "./DeptProkerA/BincangPolitik";
+import PanggungPolemik from "./DeptProkerA/PanggungPolemik";
+import PGTO from "./DeptProkerA/PGTO";
+import Gelora from "./DeptProkerA/Gelora";
+import SobatGerak from "./DeptProkerA/SobatGerak";
+import Crayon from "./DeptProkerB/Iconics";
+import Marvel from "./DeptProkerB/Marvel";
+import Simfoni from "./DeptProkerB/Simfoni";
+import Iconics from "./DeptProkerB/Crayon";
+import SehariBerbatik from "./DeptProkerB/SehariBerbatik";
+import IndonesiaFunfact from "./DeptProkerB/IndonesiaFunfact";
+import ProjectX from "./DeptProkerB/ProjectX";
+import Petarung from "./DeptProkerB/Petarung";
+import M3 from "./DeptProkerB/M3";
+import BisikBerisi from "./DeptProkerB/BisikBerisi";
+import RapatEvaluasi from "./DeptProkerB/RapatEvaluasi";
+import Preneurpedia from "./DeptProkerB/Preneurpedia";
+import Preneurzone from "./DeptProkerB/Preneurzone";
+import DirgantaraStore from "./DeptProkerB/DirgantaraStore";
+import FinestClass from "./DeptProkerB/FinestClass";
+import Syarat from "./DigmapiStore/syarat";
+import Batas from "./DigmapiStore/batas";
+import Alur from "./DigmapiStore/alur";
+import Proses from "./DigmapiStore/proses";
+import Konveksi from "./DigmapiStore/konveksi";
+
 
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -156,6 +222,263 @@ const router = createBrowserRouter([
     path: "/bphtentang",
     element: <BPHTentang />,
   },
+  {
+    path: "/bawamimpimu",
+    element: <BawaMimpimu/>,
+  },
+  {
+    path: "/welcomingparty",
+    element: <WelcomingParty/>,
+  },
+  {
+    path: "/bukabersama",
+    element: <BukaBersama/>,
+  },
+  {
+    path: "/rapot",
+    element: <Rapot/>,
+  },
+  {
+    path: "/sahabatinternal",
+    element: <SahabatInternal/>,
+  },
+  {
+    path: "/suratpku",
+    element: <SuratPKU/>,
+  },
+  {
+    path: "/widyaris",
+    element: <Widyaris/>,
+  },
+  {
+    path: "/Riszwei",
+    element: <Riszwei/>,
+  },
+  {
+    path: "/risbang100",
+    element: <Risbang100/>,
+  },
+  {
+    path: "/riscol",
+    element: <Riscol/>,
+  },
+  {
+    path: "/rintig",
+    element: <Rintig/>,
+  },
+  {
+    path: "/webris",
+    element: <Webris/>,
+  },
+  {
+    path: "/surkesuuts",
+    element: <SurkesuUTS/>,
+  },
+  {
+    path: "/database",
+    element: <Database/>,
+  },
+  {
+    path: "/internalisasi",
+    element: <Internalisasi/>,
+  },
+  {
+    path: "/relasievaluasi",
+    element: <RelasiEvaluasi/>,
+  },
+  {
+    path: "/humas101",
+    element: <Humas101/>,
+  },
+  {
+    path: "/digmacast",
+    element: <Digmacast/>,
+  },
+  {
+    path: "/digmanews",
+    element: <Digmanews/>,
+  },
+  {
+    path: "/ujarpku",
+    element: <UjarPKU/>,
+  },
+  {
+    path: "/publikasi",
+    element: <Publikasi/>,
+  },
+  {
+    path: "/sayembaralogo",
+    element: <SayembaraLogo/>,
+  },
+  {
+    path: "/grandlaunching",
+    element: <GrandLaunching/>,
+  },
+  {
+    path: "/suarakanmimpi",
+    element: <SuarakanMimpi/>,
+  },
+  {
+    path: "/advoproject",
+    element: <AdvoProject/>,
+  },
+  {
+    path: "/advoberbagi",
+    element: <AdvoBerbagi/>,
+  },
+  {
+    path: "/peduliukt",
+    element: <PeduliUKT/>,
+  },
+  {
+    path: "/kekuras",
+    element: <Kekuras/>,
+  },
+  {
+    path: "/harmonyminds",
+    element: <HarmonyMinds/>,
+  },
+  {
+    path: "/sapamaba",
+    element: <SapaMaba/>,
+  },
+  {
+    path: "/infoakpres",
+    element: <InfoAkpres/>,
+  },
+  {
+    path: "/surveyprestasi",
+    element: <SurveyPrestasi/>,
+  },
+  {
+    path: "/ruangbelajar",
+    element: <RuangBelajar/>,
+  },
+  {
+    path: "/pcw",
+    element: <PCW/>,
+  },
+  {
+    path: "/ngopi",
+    element: <Ngopi/>,
+  },
+  {
+    path: "/kabarkastrat",
+    element: <KabarKastrat/>,
+  },
+  {
+    path: "/lamankastrat",
+    element: <LamanKastrat/>,
+  },
+  {
+    path: "/pustakastrat",
+    element: <Pustakastrat/>,
+  },
+  {
+    path: "/sehari",
+    element: <Sehari/>,
+  },
+  {
+    path: "/bincangpolitik",
+    element: <BincangPolitik/>,
+  },
+  {
+    path: "/panggungpolemik",
+    element: <PanggungPolemik/>,
+  },
+  {
+    path: "/pgto",
+    element: <PGTO/>,
+  },
+  {
+    path: "/gelorapku",
+    element: <Gelora/>,
+  },
+  {
+    path: "/sobatgerak",
+    element: <SobatGerak/>,
+  },
+  {
+    path: "/simfoni",
+    element: <Simfoni/>,
+  },
+  {
+    path: "/marvel",
+    element: <Marvel/>,
+  },
+  {
+    path: "/iconics",
+    element: <Iconics/>,
+  },
+  {
+    path: "/crayon",
+    element: <Crayon/>,
+  },
+  {
+    path: "/sehariberbatik",
+    element: <SehariBerbatik/>,
+  },
+  {
+    path: "/indonesiafunfact",
+    element: <IndonesiaFunfact/>,
+  },
+  {
+    path: "/projectx",
+    element: <ProjectX/>,
+  },
+  {
+    path: "/m3",
+    element: <M3/>,
+  },
+  {
+    path: "/petarung",
+    element: <Petarung/>,
+  },
+  {
+    path: "/rapatevaluasi",
+    element: <RapatEvaluasi/>,
+  },
+  {
+    path: "/bisikberisi",
+    element: <BisikBerisi/>,
+  },
+  {
+    path: "/dirgantarastore",
+    element: <DirgantaraStore/>,
+  },
+  {
+    path: "/preneurpedia",
+    element: <Preneurpedia/>,
+  },
+  {
+    path: "/preneurzone",
+    element: <Preneurzone/>,
+  },
+  {
+    path: "/finestclass",
+    element: <FinestClass/>,
+  },
+  {
+    path: "/syarat",
+    element: <Syarat/>,
+  },
+  {
+    path: "/batas",
+    element: <Batas/>,
+  },
+  {
+    path: "/alur",
+    element: <Alur/>,
+  },
+  {
+    path: "/proses",
+    element: <Proses/>,
+  },
+  {
+    path: "/konveksi",
+    element: <Konveksi/>,
+  },
+  
 ]);
 
 root.render(

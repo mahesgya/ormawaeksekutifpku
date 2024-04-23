@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Style/SectionHome.css";
 import PrestasiSlide from "./PrestasiSlide";
+import ProkerSlide from "./ProkerSlide";
 
 
 function SectionHome() {
@@ -43,10 +44,26 @@ function SectionHome() {
             “Dirgantara Mahamimpi” memiliki makna bahwasanya Ormawa Eksekutif PKU IPB 2023/2024 diharapkan dapat menjadi dunia dan wahana inspiratif bagi KM PKU IPB dalam mewujudkan karya-karya luar biasa yang berawal dari sebuah mimpi.
           </p>
         </div>
-        
       </div>
-      <PrestasiSlide/>
-  
+      <div className="div-visi">
+        <h3 className="h3-vektor">Visi</h3>
+        <p className="p-vektor">Terwujudnya Ormawa Eksekutif PKU IPB yang menjunjung tinggi kebermanfaatan dengan berlandaskan kecintaan terhadap diversitas budaya serta memberikan kontribusi nyata untuk KM PKU IPB.</p>
+      </div>
+      <h3 className="h3-vektor">misi</h3>
+      <div className="div-visimisi">
+        <div>
+          <li className="p-vektor">Aktualisasi lingkungan Ormawa Eksekutif PKU IPB yang mendukung inklusivitas, dalam internalisasi dan ekternalisasi.</li>
+          <li className="p-vektor">Rejuvenasi fungsi pengembangan SDM yang dapat berpartisipasi secara menyeluruh.</li>
+          <li className="p-vektor">Memanifestasikan nilai apresiasi terhadap diversitas budaya, dengan mewadahi diskusi interkultural dan kolaborasi lintas budaya.</li>
+        </div>
+        <div>
+          <li className="p-vektor">Optimalisasi pencerdasan KM PKU IPB yang proaktif terhadap isu strategis dalam lingkup kampus, nasional, dan internasional.</li>
+          <li className="p-vektor">Peningkatan produktivitas ekosistem berprestasi di lingkungan KM PKU IPB.</li>
+          <li className="p-vektor">Melaksanakan 'Organizational Investment' demi terciptanya Ormawa Eksekutif yang berdaya saing tinggi.</li>
+        </div>
+      </div>
+      <ProkerSlide/>
+      <PrestasiSlide />
     </div>
   );
 }

@@ -11,7 +11,7 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
 function PrestasiSlide() {
   return (
-    <div className="container">
+    <div className="container-prestasi">
       <h1 className="heading">Prestasi KM PKU</h1>
       <Swiper
         effect={"coverflow"}
@@ -34,31 +34,31 @@ function PrestasiSlide() {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slideA">
           <img src="ImagesPrestasi/Adis.png" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slideA">
           <img src="ImagesPrestasi/Hisyam.png" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slideA">
           <img src="ImagesPrestasi/IAAS WORLD.png" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slideA">
           <img src="ImagesPrestasi/Nasrul.png" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slideA">
           <img src="ImagesPrestasi/Nasrul2.png" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slideA">
           <img src="ImagesPrestasi/Nasrul3.png" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slideA">
           <img src="ImagesPrestasi/Nasrum.png" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slideA">
           <img src="ImagesPrestasi/Rafialy.png" alt="slide_image" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper-slideA">
           <img src="ImagesPrestasi/Vindati.png" alt="slide_image" />
         </SwiperSlide>
 
